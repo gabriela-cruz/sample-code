@@ -6,4 +6,4 @@ See Cruz et al. 2017: http://journals.plos.org/plosone/article?id=10.1371/journa
 
 Participants were asked to reset a clock every four minutes, while performing a foreground ongoing word categorisation task. 
 
-The task is available in Eprime and also some analysis code.
+The task is written in Eprime. Some sample analysis code is also available.
