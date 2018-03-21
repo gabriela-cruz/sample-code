@@ -77,7 +77,7 @@ for e = 1:length(Eyes) % e= 2
             plot(X(17:241),10*log10(Px(17:241)));
             title(channelsName{i})
             xlabel('Frequency (Hz)','FontSize',10);
-            ylabel('Power 10*log10(µV^2/Hz)','FontSize',10);
+            ylabel('Power 10*log10(ÂµV^2/Hz)','FontSize',10);
             axis([2 30 -10 15])
             
             l = find(X==5);  % 5 Hz
@@ -112,7 +112,7 @@ for e = 1:length(Eyes) % e= 2
             plot(X(17:241),10*log10(Px(17:241)));
             title(channelsName{i})
             xlabel('Frequency (Hz)','FontSize',10);
-            ylabel('Power 10*log10(µV^2/Hz)','FontSize',10);
+            ylabel('Power 10*log10(ÂµV^2/Hz)','FontSize',10);
             axis([2 30 -10 15])
             
             l = find(X==5);  % 5 Hz
