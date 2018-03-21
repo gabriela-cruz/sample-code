@@ -4,5 +4,5 @@ See Cruz et al. 2016: https://www.sciencedirect.com/science/article/pii/S0028393
 
 ## Task description
 
-An event-based PM task is embedded in a 1-back continuous performance ongoing task. The task code is a short version of the task written in Eprime. Some analysis code is also available.
+The event-based prospective memory task is embedded in a 1-back continuous performance ongoing task. The task code is a short version of the task, written in Eprime. Some analysis code is also available.
 
