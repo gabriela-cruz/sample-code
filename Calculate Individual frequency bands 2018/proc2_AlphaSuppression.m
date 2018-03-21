@@ -47,7 +47,7 @@ for i = 1:length(channels)
     
     title([channelsName{i} ': Alpha Suppression'])
     xlabel('Frequency (Hz)','FontSize',10);
-    ylabel('Power 10*log10(µV^2/Hz)','FontSize',10);
+    ylabel('Power 10*log10(ÂµV^2/Hz)','FontSize',10);
     axis([2 30 -10 15])
     
     text(IAF + 1, a + 1 , ['IAF   '  num2str(IAF) ' Hz'])
