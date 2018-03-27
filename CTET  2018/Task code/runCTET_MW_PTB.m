@@ -24,7 +24,7 @@ KbName('UnifyKeyNames');
 
 % Screen setup
 clear screen
-whichScreen = min(Screen('Screens')); % Set the screen number to the external secondary monitor if there is one connected
+whichScreen = max(Screen('Screens')); % Set the screen number to the external secondary monitor if there is one connected
 [window1, rect] = Screen('Openwindow',whichScreen,backgroundColor,[],[],2);
 slack = Screen('GetFlipInterval', window1)/2;
 W=rect(RectRight); % screen width
